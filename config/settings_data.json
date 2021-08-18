@@ -23,9 +23,9 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/JAYDEN-TRANSPARENT_bc682e45-c559-4808-a235-6a0082605f8a.png",
+          "logo": "shopify:\/\/shop_images\/JAYDEN-TRANSPARENT_86643d69-812c-4960-9864-7b26abd204fd.png",
           "logo_width": 210,
-          "logo_position": "top-left",
+          "logo_position": "top-center",
           "menu": "main-menu",
           "show_line_separator": true,
           "enable_sticky_header": true
