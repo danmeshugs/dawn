@@ -49,13 +49,6 @@
           "settings": {
           }
         },
-        "b8dc4813-a993-4b8b-bbf3-ba723baa60a6": {
-          "type": "text",
-          "settings": {
-            "text": "Metal Color: {{ product.metafields.my_fields.metal_color.value }}",
-            "text_style": "body"
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
@@ -71,7 +64,6 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "b8dc4813-a993-4b8b-bbf3-ba723baa60a6",
         "share"
       ],
       "settings": {
