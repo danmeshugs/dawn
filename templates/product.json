@@ -49,16 +49,16 @@
           "settings": {
           }
         },
+        "b8dc4813-a993-4b8b-bbf3-ba723baa60a6": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.my_fields.metal_color.value }}",
+            "text_style": "body"
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
-          }
-        },
-        "5591494e-3629-4884-b006-069eb289d32c": {
-          "type": "text",
-          "settings": {
-            "text": "Metal: {{ product.metafields.my_fields.metal.value }}",
-            "text_style": "body"
           }
         }
       },
@@ -71,8 +71,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share",
-        "5591494e-3629-4884-b006-069eb289d32c"
+        "b8dc4813-a993-4b8b-bbf3-ba723baa60a6",
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
