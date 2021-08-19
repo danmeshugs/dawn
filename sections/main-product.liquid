@@ -97,6 +97,39 @@
                 {{ product.description }}
               </div>
             {%- endif -%}
+         {%- if product.metafields.my_fields.metal != blank -%}
+
+   <div>
+
+      Metal:
+
+      {{ product.metafields.my_fields.metal }}
+
+   </div>
+
+{%- endif -%}
+                {%- if product.metafields.my_fields.plating != blank -%}
+
+   <div>
+
+      Plating:
+
+      {{ product.metafields.my_fields.plating }}
+
+   </div>
+
+{%- endif -%}
+            {%- if product.metafields.my_fields.plating_color != blank -%}
+
+   <div>
+
+      Plating Color:
+
+      {{ product.metafields.my_fields.plating_color }}
+
+   </div>
+
+{%- endif -%}
           {%- when 'custom_liquid' -%}
             {{ block.settings.custom_liquid }}
           {%- when 'collapsible_tab' -%}
