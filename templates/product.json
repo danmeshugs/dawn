@@ -52,7 +52,7 @@
         "b8dc4813-a993-4b8b-bbf3-ba723baa60a6": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.my_fields.metal_color.value }}",
+            "text": "Metal Color: {{ product.metafields.my_fields.metal_color.value }}",
             "text_style": "body"
           }
         },
