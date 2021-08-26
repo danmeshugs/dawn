@@ -109,10 +109,22 @@
       {{ product.metafields.my_fields.plating }}
    </div>
 {%- endif -%}
-            {%- if product.metafields.my_fields.plating_color != blank -%}
+            {%- if product.metafields.my_fields.metal_color != blank -%}
    <div>
-      Plating Color:
-      {{ product.metafields.my_fields.plating_color }}
+      Metal Color:
+      {{ product.metafields.my_fields.metal_color }}
+   </div>
+{%- endif -%}
+        {%- if product.metafields.my_fields.stone_type != blank -%}
+   <div>
+      Stone Type:
+      {{ product.metafields.my_fields.stone_type }}
+   </div>
+{%- endif -%}
+                {%- if product.metafields.my_fields.stone_color != blank -%}
+   <div>
+      Stone Color:
+      {{ product.metafields.my_fields.stone_color }}
    </div>
 {%- endif -%}
           {%- when 'custom_liquid' -%}
