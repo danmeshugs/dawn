@@ -203,7 +203,7 @@
 {% for item in cart.items %}
   {% if item.product.tags contains 'minimum' and item.quantity <= 2 %}
     {% assign show_checkout_button = false %}
-    <p>You will need to purchase quantity 2 or more of the product "{{ item.product.title }}"</p>
+    <p>You will need to purchase quantity 3 or more of the product "{{ item.product.title }}"</p>
   {% endif %}
 {% endfor %}
 {% if show_checkout_button %}
