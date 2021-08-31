@@ -199,15 +199,12 @@
                         </span>
                       {%- endif -%}
                     </div>
-                    {% assign show_checkout_button = true %}
 {% for item in cart.items %}
   {% if item.product.tags contains 'minimum' and item.quantity <= 2 %}
     {% assign show_checkout_button = false %}
     <p>You will need to purchase quantity 3 or more of the product "{{ item.product.title }}"</p>
   {% endif %}
 {% endfor %}
-
-
                     <cart-remove-button id="Remove-{{ item.index | plus: 1 }}" data-index="{{ item.index | plus: 1 }}">
                       <a href="{{ item.url_to_remove }}" class="button button--tertiary" aria-label="{{ 'sections.cart.remove_title' | t: title: item.title }}">
                         {% render 'icon-remove' %}
